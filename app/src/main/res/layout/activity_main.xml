@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:paddingRight="5dp"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="4dp"
+                android:text="Order details"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/food"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/burger" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 items order"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/see"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:text="See details"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                    <ImageButton
+                        android:layout_width="16dp"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="400dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:background="#756D6D"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order ID"
+                android:textSize="15dp"
+
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ordernumber4867392208600039"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:layout_marginStart="64dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+        </LinearLayout>
+        <View
+            android:layout_width="400dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:background="#756D6D"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order date"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oct 23,2019 9:08 PM"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:layout_marginStart="160dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+        </LinearLayout>
+        <View
+            android:layout_width="400dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:background="#756D6D"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Mode"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHONEPE"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:layout_marginStart="207dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+        </LinearLayout>
+        <View
+            android:layout_width="400dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:background="#756D6D"/>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginTop="6dp"
+                android:layout_width="45dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="6dp"
+                android:src="@drawable/location" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="office"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2nd Floor,Hno 12, Road no 37,Back side ofMGS Hospital, West Punjabi Bagh,Punjabi Bagh,Delhi, 110026, India\n\ninstruction: Call on arrival,bring cutlery" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="400dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="25dp"
+            android:background="#756D6D" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/veg" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preparing Dinner."
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18dp"/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expected arrival time:"
+                android:textStyle="bold"
+                android:textColor="#756D6D"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="09:51 PM"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#DCD3D3"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="48dp"
+                android:layout_height="34dp"
+                android:src="@drawable/loc" />
+            <TextView
+                android:layout_marginTop="8.5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="Track Order"
+                android:textColor="#4A4747"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mainbutton"
+            android:text="Report issue"
+            android:textAllCaps="false" />
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

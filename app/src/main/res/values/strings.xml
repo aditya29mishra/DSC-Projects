@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">FoodOrder</string>
+    <string name="order_details">Order details</string>
+    <string name="_2_items_order">2 items order</string>
+    <string name="see_details">See details</string>
+    <string name="order_id">Order ID</string>
+    <string name="ordernumber4867392208600039">ordernumber4867392208600039</string>
+    <string name="order_date">Order date</string>
+    <string name="oct_23_2019_9_08_pm">Oct 23,2019 9:08 PM</string>
+    <string name="payment_mode">Payment Mode</string>
+    <string name="phonepe">PHONEPE</string>
+    <string name="OFFICE">OFFICE</string>
+    <string name="_2nd_floor_hno_12_road_no_37_back_side_ofmgs_hospital_west_punjabi_bagh_punjabi_bagh_delhi_110026_india_n_ninstruction_call_on_arrival_bring_cutlery">2nd Floor,Hno 12, Road no 37,Back side ofMGS Hospital, West Punjabi Bagh,Punjabi Bagh,Delhi, 110026, India\n\ninstruction: Call on arrival,bring cutlery</string>
+    <string name="preparing_dinner">Preparing Dinner.</string>
+    <string name="_09_51_pm">09:51 PM</string>
+    <string name="track_order">Track Order</string>
+    <string name="report_issue">Report issue</string>
+    <string name="expected_arrival_time">Expected arrival time:</string>
 </resources>
